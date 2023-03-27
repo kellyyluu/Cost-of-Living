@@ -1,0 +1,135 @@
+
+<html>  
+<head>  
+<script type="text/javascript" src="app.js">
+    </script>  
+<link rel="stylesheet" href="styles.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body onload=finalproject()> 
+
+
+<div>
+<h2 class="section">Cost of Living Across Different Countries</h2>
+Data visualization is a useful tool to display the cost of living across different countries. Every country has unique attributes that may affect its afforablity. A country may be more developed than another leading it to have better resouces that costs them more. However, other countries may be not as developed but have limited resouces which can still lead prices to be at a high. The purpose of the data vidualization is to show the afforablity that other places have to offer. The project measures afforablity through mortage, apartment prices, electicity and water costs, food, and etc. All the costs are in USD in order to normalize the dollar amount.
+
+<br>
+<div class = "parent">
+<div class = "child">
+
+<div id="q1">
+
+    </div>
+    <h4>Average Monthly Net Salary per Mortgage <br> Interest Rate in Different Countries</h4>
+    Different countries have different mortagage interest rates; however, they are typically due to the economy. Creating a scatterplot between average monthly net salary and interest rate can demonstrate how different countries price their interest rate based on the average monthly net salary. <br> <br>
+    <select id="selectButton"></select>
+    <div id="q1_plot">
+    </div><br>
+    More developed countries tend to have lower interest rate for their monthly net salary; but underdeveloped countries have higher interest rate overall. 
+    <br>
+</div>    
+<div class = "child">
+<div id="q3" >
+
+    </div>
+    <h4>Price of Apartment in Proximity to Distance to City</h4>
+    The closer an apartment is to the city, the more expensive. However, in this bargraph, we analyze the difference each country prices an apartment closer to the city compared to an apartment further away.
+    <br>
+     <br>
+    <div id="q3_plot">
+    </div>
+    <br>
+    Across all the countries, developed and underdeveloped, living in a city is more expensive than living further away, likely due to the exposure to greater resources. However, Switzerland was notable as it's city apartment was the highest in price, but also the apartments further away from their city was almost higher than most city apartments in other countries. 
+</div>
+</div> 
+</div> 
+
+<div>
+      
+<div id="q4">
+
+    </div>
+    <h4>Countries Average Price of Basics</h4>
+    Basics measured electricity, heating, cooling, water, and garbage within the country. Countries that may get larger amount of tourist may have a greater average price of basics. However, it is noteworthy that countries that are landlocked may have a higher price for basics because of their limited access to necessities.
+    <div id="q4_plot">
+    </div>
+</div>   
+    
+<div>
+      
+<div id="q2" >
+
+    </div>
+    <h4>Median Price for a Meal for Two in Different Countries</h4>
+    When looking at essentials, it is also important to look at prices of meals. The price of meals can be a cause of the tourist and developed resources. Important notes of this graph is that the countries with the highest price of meals of two are developed countries who recieve tourists and have many tourist spots. The median prices are more likely because of the influx of people visiting the country. Switzerland has the highest median price for two as well as earlier with the highest price in apartments both within the city and out of the city.  <br> <br>
+    <div id="q2_plot">
+    </div>
+</div>  
+
+<div class = "parent1">   
+
+<div>
+<div class="child1">   
+<div id="q5">
+
+    </div>
+    <h4>Food Necessities</h4>
+    Comparing the basic necessities: apple, potato, and lettuce. These items are all needed and an important ingredent to many dishes world wide. Looking at these prices across all countries, the important things to take a note of are the mean and deviation. 
+    <div id="q5_plot">
+    </div>
+    The deviation is very wide in apples while lower in lettuce. Comparing to the prices in the United States, the prices are around the same to what the box plot has displayed. However, the interesting observation to be found is that some of the prices are a couple of cents for the items. 
+</div> 
+
+</div>
+<div class="child1 ">
+    <div>
+        <h4>Mark, Channel, Color, and More</h4>
+        <div class="resource" style="font-size: 12px">
+        <strong> "Average Monthly Net Salary per Mortgage Interest Rate in Different Countries" Scatterplot:  </strong> <br> 
+        <div>
+            <li> Choice of Color Scheme: Each country on the graph has a different color. These color hues change after a selection. The different countries are represented in different hues.</li>
+            <li> Marks: points since the circles on the scatter plot represent points</li>
+            <li> Channels: The position changes horizontally and vertically. </li> 
+        </div>
+        <br>
+        <strong> "Price of Apartment in Proximity to Distance to City" Stacked Bar Chart: </strong> <br> 
+        <div>
+            <li> Choice of Color Scheme: Since the concepts of apartments in the cities were closely related, different color hues were acceptable. The saturation of the color allowed the color to still be categorical. </li>
+            <li> Marks: lines since the bar chart was made up of thick lines</li>
+            <li> Channels: size of the lines were an indication of how expensive the price of the apartments are. The horizontal transformations were to differentiate the different countries. </li> 
+        </div>
+        <br>
+        <strong> "Countries Average Price of Basics" Map:  </strong> <br> 
+        <div>
+            <li> Choice of Color Scheme: it was important to use different saturation since the price was numerical. The darker the color was the more expensive it was for a given country to supply themselves with their basics.</li>
+            <li> Marks: area since there were different areas of the region</li>
+            <li> Channels: color was the most important chanel since it would tell the user the price of basics </li> 
+        </div>
+        <br>
+        <strong> "Median Price for a Meal for Two in Different Countries" Barchart:  </strong> <br> 
+        <div>
+            <li> Choice of Color Scheme: the graph was one solid color, but the selection was a complementary color in order to know the selection that the mouse was on. One solid color was sufficent since the marks and chanels were able to differentiate the values</li>
+            <li> Marks: lines since the bar chart is made up of lines</li>
+            <li> Channels: size of lines indicated the price of the median meal </li> 
+        </div>
+        <br>
+        <strong> "Food Necessities" Boxplot:  </strong> <br> 
+        <div>
+            <li> Choice of Color Scheme: there was a solid color (white) because there was not a need for different color when the axis were sufficent </li>
+            <li> Marks: lines since the box plot was made up of lines and boxes which are thick lines</li>
+            <li> Channels: size of the lines were able to tell us the different quartiles and the length of the lines outside were able to tell us the range of minimum and maximum values </li> 
+        </div>
+
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+    
+   
+</body>  
+</html>  

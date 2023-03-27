@@ -1,0 +1,46 @@
+.center_plot {
+  margin: auto;
+  text-align: center;
+}
+
+.section {
+  text-align: center;
+}
+
+div.tooltip{
+position: absolute;
+text-align: center;
+width: "fit-content";
+height: "fit-content";
+padding: 5px;
+background: white;
+pointer-events: none;
+}
+
+#selectButton{
+    width: 30%;
+}
+.selection{
+    width: 30%;
+}
+
+.parent{
+display: grid;
+grid-template-columns: 1fr 1fr;
+column-gap: 10px;
+}
+
+.child{
+height: 750px;
+}
+
+.parent1{
+display: grid;
+grid-template-columns: 1fr 1fr;
+column-gap: 10px;
+}
+
+.child1{
+height: 750px;
+}
+
